@@ -1,0 +1,16 @@
+# 亲人/爱人.skill 依赖
+
+# 核心
+openai-whisper>=20231117  # 语音转文字
+
+# 数据处理
+pydub>=0.25.0             # 音频处理
+Pillow>=10.0.0            # 图像处理
+python-magic>=0.4.27      # 文件类型检测
+
+# 可选（增强功能）
+# speech-recognition>=3.10.0  # 备用语音识别
+# edge-tts>=6.1.0             # 语音合成（逼真度提升）
+
+# OpenClaw相关（如需集成）
+# openclaw>=1.0.0
